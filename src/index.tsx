@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import {User} from './functions/Callbacks';
+
 import reportWebVitals from './reportWebVitals';
 import {sum} from "./functions/Functions";
 
@@ -12,7 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <User />
   </React.StrictMode>
 );
 
