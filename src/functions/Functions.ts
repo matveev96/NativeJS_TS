@@ -1,7 +1,6 @@
 import {student, StudentType} from "../objects/Object";
 import {CityType, govermentBuildingsType, HouseType} from "../objects/Object02";
 
-debugger
 export const sum = (a:number, b:number) => a + b;
 
 const res = sum(sum(1,2), sum(2,3))
